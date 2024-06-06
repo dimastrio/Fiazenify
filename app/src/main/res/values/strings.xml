@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fiazenify</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="emergency_title_desc">Jumlah minimal dana darurat yang harus dikumpulkan sebesar : </string>
+    <string name="alert_message_emergency">*Hasil diatas merupakan sebuah simulasi, beberapa orang mungkin memerlukan dana darurat yang lebih besar</string>
+
+    <string name="retirement_message1">Apabila anda memutuskan untuk pensiun pada usia %1$s tahun, dengan perkiraan harapan hidup hingga %2$s tahun, dan tingkat pengembalian investasi sebesar %3$s \%% , maka jumlah dana pensiun minimal yang perlu dikumpulkan adalah :</string>
+    <string name="retirement_message2">Dan untuk mencapai jumlah tersebut, setiap bulan Anda perlu mengalokasikan sejumlah uang sebesar:</string>
+    <string name="retirement_message3">* Hasil perhitungan diatas merupakan simulasi yang menggunakan angka inflasi 4% sesuai  rata-rata inflasi dalam 10 tahun terakhir (Juni 2002 - Juni 2022) berdasarkan data dari Bank Indonesia</string>
+    <string name="retirement_message4">* Besaran dana pensiun tergantung pada beberapa faktor seperti lama masa pensiun yang diinginkan, tingkat inflasi dan tingkat pengembalian investasi yang diharapkan</string>
+
+    <!-- Rencana Keuangan-->
+    <string name="edit_fund">Ubah Dana</string>
+
+</resources>

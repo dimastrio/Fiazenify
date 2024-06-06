@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:elevation="2dp"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_title_planner"
+            style="@style/Text.Primary.Bold.16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Tabungan Beli Hp" />
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/progress_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="80"
+            app:indicatorColor="@color/blue_primary_dark"
+            app:indicatorDirectionCircular="clockwise"
+            app:indicatorSize="80dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:trackColor="#ECECEC"
+            app:trackThickness="8dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_percent"
+            style="@style/Text.Primary.Bold.14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/progress_bar"
+            app:layout_constraintEnd_toEndOf="@id/progress_bar"
+            app:layout_constraintStart_toStartOf="@id/progress_bar"
+            app:layout_constraintTop_toTopOf="@id/progress_bar"
+            tools:text="80%" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_title_current_amount"
+            style="@style/Text.Primary.12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Sudah Terkumpul"
+            app:layout_constraintBottom_toBottomOf="@id/tv_current_amount"
+            app:layout_constraintEnd_toStartOf="@id/progress_bar"
+            app:layout_constraintStart_toEndOf="@id/tv_current_amount"
+            app:layout_constraintTop_toTopOf="@id/tv_current_amount" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_current_amount"
+            style="@style/Text.Primary.12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#006FB8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_planner"
+            tools:text="Rp. 500.000 " />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_title_target_amount"
+            style="@style/Text.Secondary.Bold.14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Target : "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_current_amount" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_target_amount"
+            style="@style/Text.Secondary.14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintBottom_toBottomOf="@id/tv_title_target_amount"
+            app:layout_constraintEnd_toStartOf="@id/progress_bar"
+            app:layout_constraintStart_toEndOf="@id/tv_title_target_amount"
+            app:layout_constraintTop_toTopOf="@id/tv_title_target_amount"
+            tools:text="Rp. 500.000 " />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_update_amount"
+            style="@style/Text.White.Bold.14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:text="@string/edit_fund"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:visibility="visible"
+            app:cornerRadius="13dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_target_amount" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,258 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Fiazenify" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_dark</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_dark</item>
+        <item name="colorSecondaryVariant">@color/blue_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!--        <item name="android:navigationBarColor" >?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CardView." parent="CardView">
+        <item name="android:background">@drawable/cardview_gradient</item>
+    </style>
+
+    <style name="CardView2." parent="CardView">
+        <item name="android:background">@drawable/cardview_gradient2</item>
+    </style>
+
+
+    <style name="Text" parent="">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.Bold" parent="">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Text.Primary" parent="Text">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="Text.Secondary" parent="Text">
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="Text.Tertiary" parent="Text">
+        <item name="android:textColor">@color/colorTextTertiary</item>
+    </style>
+
+    <style name="Text.White" parent="Text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.Primary.Bold" parent="Text.Primary">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="Text.Secondary.Bold" parent="Text.Secondary">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="Text.Tertiary.Bold" parent="Text.Tertiary">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="Text.White.Bold" parent="Text.White">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="Text.Primary.10" parent="Text.Primary">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text.Primary.12" parent="Text.Primary">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Primary.14" parent="Text.Primary">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Primary.16" parent="Text.Primary">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Primary.18" parent="Text.Primary">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Primary.20" parent="Text.Primary">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Primary.Bold.10" parent="Text.Primary.Bold">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text.Primary.Bold.12" parent="Text.Primary.Bold">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Primary.Bold.14" parent="Text.Primary.Bold">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Primary.Bold.16" parent="Text.Primary.Bold">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Primary.Bold.18" parent="Text.Primary.Bold">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Primary.Bold.20" parent="Text.Primary.Bold">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Secondary.10" parent="Text.Secondary">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text.Secondary.12" parent="Text.Secondary">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Secondary.14" parent="Text.Secondary">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Secondary.16" parent="Text.Secondary">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Secondary.18" parent="Text.Secondary">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Secondary.20" parent="Text.Secondary">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Secondary.Bold.12" parent="Text.Secondary.Bold">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Secondary.Bold.14" parent="Text.Secondary.Bold">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Secondary.Bold.16" parent="Text.Secondary.Bold">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Secondary.Bold.18" parent="Text.Secondary.Bold">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Secondary.Bold.20" parent="Text.Secondary.Bold">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Tertiary.12" parent="Text.Tertiary">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Tertiary.14" parent="Text.Tertiary">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Tertiary.16" parent="Text.Tertiary">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Tertiary.18" parent="Text.Tertiary">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Tertiary.20" parent="Text.Tertiary">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Tertiary.Bold.12" parent="Text.Tertiary.Bold">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Tertiary.Bold.14" parent="Text.Tertiary.Bold">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Tertiary.Bold.16" parent="Text.Tertiary.Bold">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Tertiary.Bold.18" parent="Text.Tertiary.Bold">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.Tertiary.Bold.20" parent="Text.Tertiary.Bold">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.White.12" parent="Text.White">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.White.14" parent="Text.White">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.White.16" parent="Text.White">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.White.18" parent="Text.White">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.White.20" parent="Text.White">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.White.Bold.12" parent="Text.White.Bold">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.White.Bold.14" parent="Text.White.Bold">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.White.Bold.16" parent="Text.White.Bold">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.White.Bold.18" parent="Text.White.Bold">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.White.Bold.20" parent="Text.White.Bold">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Button.IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+</resources>
