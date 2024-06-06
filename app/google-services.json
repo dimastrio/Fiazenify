@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "231970893923",
+    "project_id": "fiazenify",
+    "storage_bucket": "fiazenify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231970893923:android:53292ebde4607cd42f4856",
+        "android_client_info": {
+          "package_name": "id.dimas.fiazenify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHXdzxe383Jdn0d-aUk6pg38yEO9OWYXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
