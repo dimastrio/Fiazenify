@@ -47,9 +47,10 @@ class ChangePasswordBottomSheet : BottomSheetDialogFragment() {
 
                 val oldPass = etOldPassword.text.toString()
                 val newPass = etNewPassword.text.toString()
-                if (validateData(oldPass, newPass))
+                if (validateData(oldPass, newPass)) {
                     bottomSheetCallback?.onChange(oldPass, newPass)
-                clearView()
+                    clearView()
+                }
             }
         }
     }
